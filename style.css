@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: white; 
+    color: white;
+}
+
+.header {
+    width: 100%;
+    margin: 0px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    padding-left: 0px;
+    text-align: center;
+    position: fixed;
+}
+
+.logo {
+    max-width: 20%;
+}
+
+.title {
+    color: white;
+}
+
+.subtitle {
+    color: white;
+}
+
+h1 {
+    color: black;
+    margin: 0px;
+    text-align: left;
+    padding: 30px;
+    padding-bottom: 5px;
+    font-family: montserrat alternates;
+    font-size: 60px;
+}
+
+h3 {
+    color: black;
+    text-align: left;
+    padding: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: montserrat alternates medium;
+    font-size: 20px;
+}
+
+button {
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: none;
+    border-radius: 2px;
+    margin: 30px;
+    font-family: montserrat alternates semibold;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.section1 {
+    margin: 0px;
+    padding-top: 102px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(77,31,198,1) 50%, rgba(0,0,0,1) 100%);
+}
+
+.section2 {
+    padding-bottom: 20px;
+}
+
+.section3 {
+    background-color: rgb(73, 125, 255);
+}
